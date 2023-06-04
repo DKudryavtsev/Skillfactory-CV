@@ -26,6 +26,12 @@ Object detection problem with transfer learning of the two popular models: Faste
 The project is based on the Kaggle [Face Mask Detection](https://www.kaggle.com/datasets/andrewmvd/face-mask-detection) dataset. Three classes are presented: with mask (79%), without mask (18%), mask weared incorrectly (3%).
   
 ### Results
+| Model | No. of parameters | GFLOPS| mAP | minor class AP | mAP50  | One epoch training time |
+|---|---|---|---|---|---|---|
+| Faster R-CNN | 41.8 mln  | 134 | 0.53  | 0.39 | 0.79  | 2.4 min |
+| YOLOv8 | 25.9 mln | 79 | 0.68 | 0.69 | 0.92 | 0.5 min |
+
+
 Two models from the Faster R-CNN and YOLO families have been trained, and the metrics calculated. The YOLO model is faster, more accurate, and shows better results for underrepresented classes, the worst case is AP50=0.89 for the most poorly represented class, while for all the classes mAP50=0.92, and AP50 is almost 0.97 for the major class.
 
-Faster R-CNN is usually considered as a more slow but more accurate model. This case is different. The reasons are perhaps in the imbalanced data and/or also in a more sofisticated training algorithm under the hood of YOLOv8 compared to a relatively simple training function implemented here for Faster R-CNN.
+Faster R-CNN is usually considered as a more slow but more accurate model. This case is different. The reason is perhaps in the imbalanced data and the fact that YOLO, since version 7, incorporates the focal loss function, which takes into account class imbalance, and the loss function [is modified for increased accuracy](https://encord.com/blog/yolo-object-detection-guide/) in version 8. Apparently, this approach works better than the weighted loading implemented here for Faster R-CNN.
