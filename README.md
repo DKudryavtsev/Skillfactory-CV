@@ -7,4 +7,4 @@ My computer vision projects during the secong year of the [SkillFactory Data Sci
 
 ---
 
-* [Semantic Segmentation Practice](https://github.com/DKudryavtsev/Skillfactory-CV/tree/master/Segmentation_Practics)
+* [Semantic Segmentation Practice](https://github.com/DKudryavtsev/Skillfactory-CV/tree/master/Segmentation_Practice)
