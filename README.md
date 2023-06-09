@@ -4,3 +4,7 @@ My computer vision projects during the secong year of the [SkillFactory Data Sci
 * [Project 1. Face Recognition (Image Classification)](https://github.com/DKudryavtsev/Skillfactory-CV/tree/master/CV_Project1-FaceRecognition)
 * [Project 2. Mask Detection (Object Detection)](https://github.com/DKudryavtsev/Skillfactory-CV/tree/master/CV_Project2-MaskDetection)
 * To be continued...
+
+---
+
+* [Semantic Segmentation Practice](https://github.com/DKudryavtsev/Skillfactory-CV/tree/master/Segmentation_Practics)
