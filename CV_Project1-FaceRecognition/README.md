@@ -1,6 +1,8 @@
 # Project 1. "Guess a Celebrity"
 ## Image classification, face recognition
 
+![](figs/output.png)
+
 ### Project description
 The training and validation datasets with photos of five well-known persons are provided. The task is to develop a classificator based on a pretrained convolutional neural network for photo recognition.
 

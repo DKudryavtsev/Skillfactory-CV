@@ -1,5 +1,7 @@
 # Semantic Segmentation Practice
 
+![](figs/output.png)
+
 ### Project description
 Binary semantic segmentation (classification of image pixels as background or foreground) based on the [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/). The Kaggle version of this project [is here](https://www.kaggle.com/code/dkudryavtsev/segmentation-practice).
 

@@ -1,6 +1,8 @@
 # Project 2. Mask Detection
 ## Object detection case
 
+![](figs/output.png)
+
 ### Project description
 Object detection problem with transfer learning of the two popular models: Faster R-CNN and YOLOv8. The dataset is hardly imbalanced (3% and 18% for the minor classes against the 79% of the major class). The Jupiter notebook for this project is [available on Kaggle](https://www.kaggle.com/code/dkudryavtsev/mask-detection-faster-r-snn-vs-yolov8).
 
