@@ -1,1 +1,1 @@
-CV_Project1-FaceRecognition/data/** filter=lfs diff=lfs merge=lfs -text
+# CV_Project1-FaceRecognition/data/** filter=lfs diff=lfs merge=lfs -text
