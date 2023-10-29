@@ -5,7 +5,6 @@ My computer vision projects during the secong year of the [SkillFactory Data Sci
 * [Project 2. Mask Detection (Object Detection)](https://github.com/DKudryavtsev/Skillfactory-CV/tree/master/CV_Project2-MaskDetection)
 * [Project 3. Spacecraft Component Segmentation (Semantic Segmentation)](https://github.com/DKudryavtsev/Skillfactory-CV/tree/master/CV_Project3-SpacecraftComponentSegmentation)
 * [Project 4. Style Transfer](https://github.com/DKudryavtsev/Skillfactory-CV/tree/master/CV_Project4-StyleTransfer)
-* To be continued...
 
 ---
 
